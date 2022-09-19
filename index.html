@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="https://kit.fontawesome.com/2f41b6fafb.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -17,7 +16,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    <title>Site Modelo - 01</title>
+
+    <script src="https://kit.fontawesome.com/2f41b6fafb.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Projeto Web - Landing Page</title>
 </head>
 
 <body>
@@ -25,14 +28,20 @@
         <div class="head">
             <div class="head-content">
                 <ul class="content-contact">
-                    <li><i class="fas fa-envelope">&nbsp;</i><a href="mailto:luan@yepcomm.com.br">luan@yepcomm.com.br</a></li>
-                    <li><i class="fas fa-phone-square-alt">&nbsp;</i><a href="tel:(16) 99365-5871">(16) 99365-5871</a></li>
+                    <li>
+                        <i class="fas fa-envelope">&nbsp;</i>
+                        <a href="mailto:luan@yepcomm.com.br">code.luanhs@gmail.com</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone-square-alt">&nbsp;</i>
+                        <a href="tel:(16) 99365-5871">(16) 99365-5871</a>
+                    </li>
                 </ul>
             </div>
         </div>
         <div class="header">
             <div class="logo-header">
-                <img src="./images/logo.png" alt="Logo Site" />
+                <img src="./assets/images/logo.png" alt="Logo Site" loading="lazy" />
             </div>
             <div class="list-header">
                 <ul class="list-menus">
@@ -49,10 +58,10 @@
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./images/slider01.jpg" class="d-block w-100" alt="...">
+                    <img src="./assets/images/slider01.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="./images/slider02.jpg" class="d-block w-100" alt="...">
+                    <img src="./assets/images/slider02.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -69,55 +78,34 @@
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at nisl et risus
                 tempor</span>
         </div>
-        <div class="main-content">
+        <section class="vantagens">
             <div class="block-description">
-                <div class="block-left">
-                    <div class="block-content">
-                        <div class="capa"></div>
-                        <img src="images/criacao-sites.jpg" />
-                    </div>
-                    <div class="block-title-top">
-                        <span>Criação de Sites</span>
-                    </div>
-                    <div class="block-content">
-                        <div class="capa"></div>
-                        <img src="images/hospedagem.jpg" />
-                    </div>
-                    <div class="block-title-bottom">
-                        <span>Hospedagem de sites</span>
-                    </div>
+                <div class="item">
+                    <img src="assets/images/criacao-sites.jpg" alt="Criação de Sites" loading="lazy" />
+                    <h2>Criação de Sites</h2>
                 </div>
-                <div class="block-middle">
-                    <div class="block-content">
-                        <div class="capa"></div>
-                        <img src="images/manutencao.jpg" />
-                    </div>
-                    <div class="block-title-top">
-                        <span>Manutenção de sites</span>
-                    </div>
-                    <div class="block-content">
-                        <div class="capa"></div>
-                        <img src="images/sites-adm.jpg" />
-                    </div>
-                    <div class="block-title-bottom">
-                        <span>Sites Administráveis</span>
-                    </div>
+                <div class="item">
+                    <img src="assets/images/hospedagem.jpg" alt="Hospedagem de sites" loading="lazy" />
+                    <h2>Hospedagem de sites</h2>
                 </div>
-                <div class="block-right">
-                    <div class="block-content">
-                        <div class="capa-right"></div>
-                        <img src="images/otimizacao.jpg" />
-                    </div>
-                    <div class="block-title-right">
-                        <span>Otimização de sites (SEO)</span>
-                    </div>
+                <div class="item">
+                    <img src="assets/images/manutencao.jpg" alt="Manutenção de sites" loading="lazy" />
+                    <h2>Manutenção de sites</h2>
+                </div>
+                <div class="item">
+                    <img src="assets/images/sites-adm.jpg" alt="Sites Administráveis" loading="lazy" />
+                    <h2>Sites Administráveis</h2>
+                </div>
+                <div class="item">
+                    <img src="assets/images/otimizacao.jpg" alt="Otimização de sites (SEO)" loading="lazy" />
+                    <h2>Otimização de sites (SEO)</h2>
                 </div>
             </div>
             <div class="blocked">
                 <i class="fas fa-ban"></i>
             </div>
-        </div>
-        <div class="main-content-02">
+        </section>
+        <section class="detalhes">
             <div class="info-content">
                 <div class="box-left">
                     <i class="far fa-arrow-alt-circle-right"></i>
@@ -159,22 +147,22 @@
                             tempor fringilla. Sed ut ligula metus. In mattis erat mauris id.
                         </span>
                     </div>
-                </div>                
+                </div>
             </div>
             <div class="ban">
                 <div class="blocked">
                     <i class="fas fa-ban"></i>
                 </div>
             </div>
-        </div>
-        <div class="about">
+        </section>
+        <section class="about">
             <div class="info">
                 <div class="about-img">
-                    <img src="images/index-06.png" title="Sobre a Empresa" />
+                    <img src="assets/images/index-06.png" alt="Sobre a Empresa" loading="lazy" />
                 </div>
                 <div class="block-about">
                     <div class="about-title">
-                        <h2>SAIBA MAIS SOBRE</h2>                  
+                        <h2>SAIBA MAIS SOBRE</h2>
                     </div>
                     <div class="about-content">
                         <span>A EMPRESA</span>
@@ -182,16 +170,16 @@
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at nisl et risus tempor fringilla. Sed ut ligula metus. In mattis erat mauris id.
                         </span>
                         <button class="button">Entrar</button>
-                    </div> 
+                    </div>
                 </div>
             </div>
             <div class="blocked">
                 <i class="fas fa-ban"></i>
             </div>
-        </div>
-        <div class="contact">
+        </section>
+        <section class="contact">
             <div class="block-contact">
-                <div class="container-contact">                    
+                <div class="container-contact">
                     <form>
                         <div class="contact-title">
                             <span>Entre em</span>
@@ -213,11 +201,18 @@
                             <i class="fas fa-phone-alt">&nbsp;</i><a href="tel:(16) 99365-5871">(16) 99365-5871</a>
                         </span>
                         <span>
-                            <i class="fas fa-envelope">&nbsp;</i><a href="mailto:luan@yepcomm.com.br">luan@yepcomm.com.br</a>
+                            <i class="fas fa-envelope">&nbsp;</i><a href="mailto:code.luanhs@gmail.com">code.luanhs@gmail.com</a>
                         </span>
                         <span class="social-icons">
-                            <a href="https://www.facebook.com/luan.henrique.branco" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.instagram.com/theluanhenrique_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/luan.henrique.branco" rel="noopener" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com/realluan05" rel="noopener" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://github.com/realluan05" rel="noopener" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
                         </span>
                     </div>
                 </div>
@@ -225,23 +220,30 @@
             <div class="blocked">
                 <i class="fas fa-ban"></i>
             </div>
-        </div>
+        </section>
     </main>
     <footer>
         <div class="footer">
             <div class="footer-top">
-                <span><a href="maito:luan@yepcomm.com.br">luan@yepcomm.com.br</a></span>
+                <span><a href="maito:code.luanhs@gmail.co">code.luanhs@gmail.com</a></span>
                 <span><a href="tel:(16) 993655871">(16) 99365-5871</a></span>
                 <div class="social-icons">
-                    <a href="https://www.facebook.com/luan.henrique.branco" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/theluanhenrique_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/luan.henrique.branco" rel="noopener" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/realluan05" rel="noopener" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/realluan05" rel="noopener" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
                 </div>
             </div>
         </div>
     </footer>
     <div class="whatsapp">
         <div class="wtp-fixo">
-            <a href="https://api.whatsapp.com/send?phone=+5516993655871" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5516993655871" target="_blank"><i class="fab fa-whatsapp"></i></a>
         </div>
     </div>
 
