@@ -1,11 +1,11 @@
-# Site 01 - HTML, SCSS/CSS
+# Projeto Web - HTML, SCSS/CSS
 Página estática para praticar estrutura HTML5, CSS3 e responsivo.
 
 Site referência: https://www.projetoweb.com.br/sites-padrao-prontos-simples-baratos-lancamentos/padrao6-programado/ <br>
 Breakpoints: https://css-tricks.com/conditional-media-query-mixins/
 
 ## IMAGEM MOBILE
-![Imagem Mobile](https://github.com/theluanhenrique/Site-Modelo---01/blob/main/mobile.png)
+![Imagem Mobile](https://github.com/realluan05/lp-projetoweb/assets/images/blob/main/mobile.png)
 
 ## IMAGEM DESKTOP
-![Imagem Desktop](https://github.com/theluanhenrique/Site-Modelo---01/blob/main/desktop.png)
+![Imagem Desktop](https://github.com/realluan05/lp-projetoweb/assets/images/blob/main/desktop.png)
