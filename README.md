@@ -5,7 +5,7 @@ Site referência: https://www.projetoweb.com.br/sites-padrao-prontos-simples-bar
 Breakpoints: https://css-tricks.com/conditional-media-query-mixins/
 
 ## IMAGEM MOBILE
-![Imagem Mobile](https://github.com/realluan05/lp-projetoweb/blob/assets/images/main/mobile.png)
+![Imagem Mobile](https://github.com/realluan05/lp-projetoweb/blob/main/assets/images/mobile.png)
 
 ## IMAGEM DESKTOP
 ![Imagem Desktop](https://github.com/realluan05/lp-projetoweb/blob/main/assets/images/desktop.png)
